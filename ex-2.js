@@ -13,3 +13,8 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+let displayData = function (data) {
+  console.log(data);
+}
+
+getJohnProfile().catch(displayData);
